@@ -8,3 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/main.unity
     guid: c0859c6be6c9af14c95a4a70bac55f0c
+  - enabled: 1
+    path: Assets/Phone Scene.unity
+    guid: 4d2ada089a9696f4a88efd1289eaf42c
+  - enabled: 1
+    path: Assets/Kindle Scene.unity
+    guid: c777370b90705cf4d959e49df98f1fb5
+  - enabled: 1
+    path: Assets/Win.unity
+    guid: 624dce1b7b9a2074aafcbc6608d22d6c
