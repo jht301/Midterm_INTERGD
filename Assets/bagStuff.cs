@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class bagStuff : MonoBehaviour {
     public Camera cam;
 
@@ -33,7 +33,7 @@ public class bagStuff : MonoBehaviour {
             }
             if(hit.collider.gameObject == phone) {
                 if (Input.GetMouseButtonDown(0)) {
-                    Debug.Log(phone);
+                    SceneManager.LoadScene("phone");
                 }
             }
             if (hit.collider.gameObject == kindle) {
